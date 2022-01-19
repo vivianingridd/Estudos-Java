@@ -1,0 +1,35 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		//int y = 32;
+		double x = 10.35784; //declaranção da variável
+		
+		String nome = "Maria";
+		int idade = 31;
+		double renda = 4000.00;
+	
+		
+		
+		//System.out.println ("Olá mundo!");
+		
+		System.out.println (x); //exibção da variável
+		System.out.printf ( "%.2f%n", x); //formatar em 2 casas decimais
+		System.out.printf ( "%.4f%n", x); //formatar em 4 casas decimais
+		
+		Locale.setDefault(Locale.US); //para definir o padrão de separação dos EUA
+		System.out.printf ( "%.4f%n", x); 
+		System.out.println ( "RESULTADO = " + x + " METROS "); //concatenação de variáveis
+		System.out.printf ( "RESULTADO = %.2f METROS%n ", x); //concatenação com formatação
+		
+		System.out.printf (" %s tem %d anos e ganha %.2f reais%n", nome, idade, renda);
+		
+		//System.out.println (y);
+		
+		//System.out.println ("Bom dia!");
+
+	}
+
+}
