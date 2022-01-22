@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class Main_2 {
+
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner (System.in); // variável para que possa inserir dados a partir do teclado
+		
+		//String x; texto
+		//x = sc.next();
+		
+		// int x; número inteiro
+		// x = sc.nextInt();
+		   
+		//double x;//para números com ponto flutuante
+		//x = sc.nextDouble();
+	
+		
+		//leitura de vários dados
+		
+		String a;
+		int b;
+		double c;
+		
+		a = sc.next();
+		b = sc.nextInt();
+		c = sc.nextDouble();
+		
+		 
+		//System.out.println("Você digitou:" + x);	//imprime com "."
+		//System.out.printf("Você digitou: %.2f%n", x); //imprime com vírgula 
+		
+		System.out.println("Dados inseridos:");
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		
+		
+		
+	    sc.close();
+	    
+	   
+	
+	}
+	
+}
